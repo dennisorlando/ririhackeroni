@@ -35,6 +35,6 @@ const menuItems = [
   { title: 'Home', route: '/', icon: 'mdi-home' },
   { title: 'Map', route: '/map', icon: 'mdi-map' },
   { title: 'Test', route: '/test', icon: 'mdi-email' },
-  { title: 'Settings', route: '/settings', icon: 'mdi-cog' },
+  { title: 'Settings', route: '/wasm', icon: 'mdi-expansion-card' },
 ]
 </script>
