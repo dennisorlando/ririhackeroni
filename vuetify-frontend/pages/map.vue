@@ -39,9 +39,10 @@ onMounted(() => {
   // Initialize the map centered on Italy (46°41′N 11°11′E)
   map = L.map('map').setView([46.683333, 11.183333], 10)
 
-  // Add OpenStreetMap tiles
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
+  // Add OpenStreetMap tilesd
+  L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    detectRetina: true,
   }).addTo(map)
 
   // Add click event listener
