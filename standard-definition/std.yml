@@ -1,0 +1,44 @@
+environment:
+  energy:
+    non-renewable-sources:
+      - natural-gas
+      - diesel
+      - diesel-emergency-generators
+      - gpl
+      - gnl
+      - propane
+      - oil
+      - coal
+    veichles:
+      - gasoline
+      - diesel
+      - hvo-100
+      - biodiesel
+      - ethanol
+      - lpg
+      - lng
+      - cng
+      - hydrogen
+      - electricity-inner
+      - electricity-bought
+    renewable-energy:
+      - solar-produced
+      - solar-consumed
+      - solar-sold
+      - biomass
+      - biogas
+      - pellet
+    cooling-gas:
+      - r22
+      - r134a
+      - r410a
+      - r407v
+      - ethylene-glycol
+    indirect-energy-usage:
+      - non-renewable-energy-bought
+      - renewable-energy-bought
+      - heating-natural-gas
+      - heating-lignite
+      - heating-waste-reprocessing
+      - heating-biogas
+      - heating-geothermal
