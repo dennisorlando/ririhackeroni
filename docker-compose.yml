@@ -1,12 +1,12 @@
 services:
   web:
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
     image: backend:latest
     restart: unless-stopped
     env_file:
-      - .env
+      - ./backend/.env
     ports:
       - "8000:8000"
     depends_on:
